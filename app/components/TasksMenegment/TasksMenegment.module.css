@@ -1,0 +1,128 @@
+
+.container{
+    width: 1300px;
+    height: 700px;
+ 
+    border-radius: 30px;
+    display: flex;
+    padding: 20px;
+    justify-content: space-between;
+   
+}
+.toDo{
+    width: 300px;
+    height: 700px;
+   background: rgba(100, 100, 100, 0.15);        
+  border-radius: 30px;
+
+  backdrop-filter: blur(20px);              
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 30px;
+}
+
+.top{
+    width: 300px;
+    height: 80px;
+       background: rgba(76, 73, 73, 0.15);        
+   border-top-left-radius: 30px;
+   border-top-right-radius: 30px;
+   display: flex;
+   align-items: center;
+   justify-content: space-between;
+   padding: 10px;
+   gap: 5px;
+}
+.topLeft{
+    width: 150px;
+    height: 50px;
+  
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 10px;
+
+}
+.topLeft p {
+    font-family: sans-serif;
+    font-weight: 100;
+    font-size: 19px;
+    color: lightcyan;
+}
+.counter{
+    padding: 5px 5px;
+    border: none;
+     background: rgba(36, 34, 34, 0.541);  
+    color: lightcyan;
+
+}
+.topRight{
+    width: 150px;
+    height: 50px;
+ 
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+  
+    gap: 10px;
+}
+
+.iconBtn{
+    font-size: 20px;
+    color: white;
+    cursor: pointer;
+}
+
+
+.inProgress{
+      width: 300px;
+    height: 700px;
+    background: rgba(100, 100, 100, 0.15);        
+     
+  border-radius: 30px;
+
+  backdrop-filter: blur(20px);              
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 30px;
+}
+
+.done{
+      width: 300px;
+    height: 700px;
+      background: rgba(100, 100, 100, 0.15);        
+     
+  border-radius: 30px;
+
+  backdrop-filter: blur(20px);              
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 30px;
+}
+
+.archived{
+      width: 300px;
+    height: 700px;
+   background: rgba(100, 100, 100, 0.15);        
+      
+  border-radius: 30px;
+
+  backdrop-filter: blur(20px);              
+  -webkit-backdrop-filter: blur(20px);
+  border: 1px solid rgba(255, 255, 255, 0.1); 
+    border-radius: 30px;
+}
+
+.taskcontainer{
+    width: 300px;
+    height: 619px;
+    border-bottom-left-radius: 30px;
+    border-bottom-right-radius: 30px;
+    padding: 20px 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+ 
+     
+}
+ 
