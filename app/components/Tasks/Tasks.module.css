@@ -3,7 +3,7 @@
 .task{
         width: 280px;
         height: 150px;
-        background-color: rgb(227, 255, 71);
+        /* background-color: rgb(227, 255, 71); */
         border-radius: 30px;
         display: flex;
         align-items: center;
