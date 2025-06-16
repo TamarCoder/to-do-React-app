@@ -26,7 +26,9 @@ export default function Tasks({ taskText }: TasksProps) {
           <CalendarOutlined />
           <p>Monday</p>
         </div>
-        <ArrowRightOutlined />
+         <button className={styles.nextBtn}>
+            <ArrowRightOutlined />
+         </button>
       </div>
       <div className={styles.taskText}>
         <p>{taskText}</p>

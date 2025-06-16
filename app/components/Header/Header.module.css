@@ -1,6 +1,6 @@
 .header {
   width: 1300px;
-  height: 300px;
+  height: 250px;
 
   background: rgba(76, 31, 122, 0.15);        
   border-radius: 30px;
@@ -14,7 +14,7 @@
 }
 .cover{
     width: 100%;
-    height: 200px;
+    height: 150px;
     background-image: url('/cover.jpeg');
     background-position: center;
     border-top-left-radius: 30px;
@@ -28,11 +28,11 @@
 }
 .left{
     width: 400px;
-    height: 100px;
+    height: 50px;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    margin-top: 7.8%;
+    margin-top: 5%;
     gap: 10px;
      
 }
@@ -70,34 +70,20 @@
 .btnSection{
     width: 1300px;
     height: 100px;
-    
     border-bottom-left-radius: 30px;
     border-bottom-right-radius: 30px;
-   
-
 }
 
 .content{
-    width: 1100px;
+    width: 900px;
     height: 100px; 
     display: flex;
     align-items: center;
     justify-content: space-around; 
+ 
 }
 
-.priority{
-    width: 120px;
-    height: 70px;
-
-   background-color: #4d52b0;  
-  border-radius: 10px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  gap: 5px;
-   
-}
+ 
 
 .btn{
     width: 50px;

@@ -1,7 +1,6 @@
 .aside {
      width: 100px;
      height: auto;
-     box-shadow: 9px 1px 6px -5px rgba(78, 89, 109, 0.41);
      display: flex;
      align-items: center;
      flex-direction: column;

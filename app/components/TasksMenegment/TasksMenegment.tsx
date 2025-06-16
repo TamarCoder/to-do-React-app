@@ -1,4 +1,5 @@
 "use client";
+import { useState } from "react";
 import Tasks from "../Tasks/Tasks";
 import styles from "./TasksMenegment.module.css";
 import {
@@ -18,6 +19,10 @@ export default function TasksMenegment({
   taskTexts,
   showTask,
 }: TasksMenegmentProps) {
+
+  const [throwTask, setThrouTask] = useState(false); 
+
+
   return (
     <section className={styles.container}>
 

@@ -24,13 +24,9 @@ export default function Header() {
 
       <section className={styles.btnSection}>
         <div className={styles.content}>
-          <div className={styles.priority}>
-            <span className={styles.title}>Priority</span>
-            <Buttons title="Hight" className={styles.btn} />
-          </div>
+          
           <div className={styles.data}>
             <span className={styles.titleData}>Start Data</span>
-
             <DatePicker
               style={{
                 backgroundColor: "#4d52b0",

@@ -10,12 +10,13 @@ type BannerProps = {
 };
 
 export default function Banner({ onAddTask }: BannerProps) {
-  const [textInput, setTextInput] = useState("");
+  const [textInput, setTextInput] = useState(""); //inmputTex state
 
+ //A function that responds to text changes in the input field
   const onChange = (e: React.ChangeEvent<HTMLInputElement>) => {
     setTextInput(e.target.value);
   };
-
+ //A function that runs on button click
   const onClick = () => {
     if (textInput.trim() === "") return;
     onAddTask(textInput);

@@ -6,10 +6,11 @@ import TasksMenegment from '../TasksMenegment/TasksMenegment';
 import styles from './Dashboard.module.css';
 
 export default function Dashboard () {
-  const [count, setCount] = useState(0);
-  const [taskText, setTaskText] = useState<string[]>([]); 
-  const [showTask, setShowTask] = useState(false);
+  const [count, setCount] = useState(0); //Task counter state
+  const [taskText, setTaskText] = useState<string[]>([]);  // Task text state
+  const [showTask, setShowTask] = useState(false); //  Task visibility state initially not false
 
+  // Task funqtion. 
   const AddTask = (text: string) => {
     setTaskText(prev => [...prev, text]); 
     setShowTask(true); 
